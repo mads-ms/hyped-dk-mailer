@@ -3,6 +3,7 @@
     "name": "hyped-emailer",
     "main": "src/index.js",
     "compatibility_date": "2025-11-01",
+    "compatibility_flags": ["nodejs_compat"],
   
     "send_email": [
       {
