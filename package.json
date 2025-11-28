@@ -1,0 +1,28 @@
+{
+  "name": "hyped-dk-mailer",
+  "version": "1.0.0",
+  "description": "mailer",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mimetext": "^3.0.27"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mads-ms/hyped-dk-mailer.git"
+  },
+  "keywords": [
+    "mail",
+    "from",
+    "form"
+  ],
+  "author": "mads.ms",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/mads-ms/hyped-dk-mailer/issues"
+  },
+  "homepage": "https://github.com/mads-ms/hyped-dk-mailer#readme"
+}
