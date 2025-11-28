@@ -1,7 +1,7 @@
 import { EmailMessage } from "cloudflare:email";
 import { createMimeMessage } from "mimetext";
 
-const TO = "hello@hyped.dk";
+const TO = "madsdotms@gmail.com";
 
 // IMPORTANT: This must be an address on a domain you control
 // and have configured in Cloudflare Email Routing.
