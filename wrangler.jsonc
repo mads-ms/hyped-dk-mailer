@@ -1,0 +1,14 @@
+{
+    "$schema": "./node_modules/wrangler/config-schema.json",
+    "name": "post-to-email-worker",
+    "main": "src/index.js",
+    "compatibility_date": "2025-11-01",
+  
+    "send_email": [
+      {
+        "name": "MAIL",
+        "destination_address": "hello@hyped.dk"
+      }
+    ]
+  }
+  
