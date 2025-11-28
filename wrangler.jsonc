@@ -1,6 +1,6 @@
 {
     "$schema": "./node_modules/wrangler/config-schema.json",
-    "name": "post-to-email-worker",
+    "name": "hyped-emailer",
     "main": "src/index.js",
     "compatibility_date": "2025-11-01",
   
