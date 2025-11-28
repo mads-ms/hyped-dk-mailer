@@ -5,7 +5,7 @@ const TO = "hello@hyped.dk";
 
 // IMPORTANT: This must be an address on a domain you control
 // and have configured in Cloudflare Email Routing.
-const FROM = "no-reply@your-domain.com";
+const FROM = "no-reply@hyped.dk";
 const FROM_NAME = "Hyped.dk Contact Worker";
 
 export default {
