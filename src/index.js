@@ -29,6 +29,18 @@ export default {
       ) {
         const form = await request.formData();
         for (const [k, v] of form.entries()) data[k] = v;
+      } else if (contentType.includes("text/plain")) {
+        // Parse text/plain format: name=value\nname2=value2
+        const text = await request.text();
+        const lines = text.split("\n");
+        for (const line of lines) {
+          const equalIndex = line.indexOf("=");
+          if (equalIndex > 0) {
+            const key = line.substring(0, equalIndex).trim();
+            const value = line.substring(equalIndex + 1).trim();
+            if (key) data[key] = value;
+          }
+        }
       } else {
         return new Response("Unsupported Content-Type", { status: 415 });
       }
